@@ -1,0 +1,35 @@
+{
+  "name": "dequeu",
+  "version": "1.0.0",
+  "description": "Test Project for A11y scan",
+  "keywords": [
+    "DeQue",
+    "A11y"
+  ],
+  "homepage": "https://github.com/kentonself/DeQueU#readme",
+  "bugs": {
+    "url": "https://github.com/kentonself/DeQueU/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kentonself/DeQueU.git"
+  },
+  "license": "ISC",
+  "author": "Kenton Self",
+  "type": "commonjs",
+  "main": "index.js",
+  "jest": {
+    "testTimeout": 15000
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@axe-core/webdriverjs": "^4.11.1",
+    "jest": "^30.2.0"
+  },
+  "dependencies": {
+    "chromedriver": "^145.0.5",
+    "selenium-webdriver": "^4.41.0"
+  }
+}
