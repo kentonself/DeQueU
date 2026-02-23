@@ -29,6 +29,5 @@ test.each(a11yCases)("Is Catagory over limit", async ({ impact, upperLimit }) =>
     //console.log(violations)
     console.log(results)
     impacts = violations.filter(violation => violation.impact == impact)
-    console.log(impacts.length, impact)
     expect(impacts.length).toBeLessThanOrEqual(upperLimit)
 })
