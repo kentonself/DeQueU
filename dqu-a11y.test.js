@@ -10,7 +10,7 @@ async function t() {
         results = await new AxeBuilder(driver).analyze();
         //console.log(results)
     } catch (error) {
-        console.error(`Could not find mainNav ${error}`)
+        console.error("Could not find mainNav" + error)
     } finally {
         await driver.quit();
     }
