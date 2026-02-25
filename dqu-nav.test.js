@@ -8,7 +8,7 @@ const { Builder, By } = require('selenium-webdriver');
     const mainNav = await driver.findElement(By.id('main-nav'))
     await expect(mainNav).not.toBeNull()
   } catch (error) {
-    console.error("Could not find mainNav" + error)
+    console.error(`Could not find mainNav ${error}`)
   } finally {
     await driver.quit();
   }
