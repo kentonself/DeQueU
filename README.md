@@ -7,5 +7,6 @@ The validations are in the JSON object a11yCases in dqu_all1.test.js declared ne
 
 To Run:
 
-npm install
-npm test
+ - npm install
+
+ - npm test
